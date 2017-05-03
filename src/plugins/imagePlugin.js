@@ -51,7 +51,7 @@ export default function createImagePlugin() {
             <button className="c-button c-button--outline c-licenseToggle__button" type="button">Kopier referanse</button>
           </div>
           <div className="c-figure__thumb">
-            <button className="c-button c-button--outline c-licenseToggle__button" type="button">Vis bilde</button>
+            <button className="c-button c-button--outline c-licenseToggle__button" type="button">Last ned bilde</button>
           </div>
         </FigureDetails>
       </Figure>
