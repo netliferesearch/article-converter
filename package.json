@@ -42,6 +42,7 @@
     "ndla-ui": "^0.3.0",
     "ndla-util": "^0.1.0",
     "parse5": "2.2.1",
+    "prop-types": "^15.5.8",
     "rapscallion": "^2.1.5",
     "react": "15.3.2",
     "rimraf": "^2.6.1",
