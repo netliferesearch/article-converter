@@ -48,7 +48,7 @@ export default function createImagePlugin() {
         <FigureCaption caption={caption} reuseLabel="Bruk bildet" licenseAbbreviation={license} authors={authors} />
         <FigureDetails licenseAbbreviation={license} authors={authors}>
           <div>
-            <button className="c-button c-button--outline c-licenseToggle__button" type="button">Kopier referanse</button>
+            <button className="c-button c-button--outline c-licenseToggle__button" type="button">sKopier referanse</button>
           </div>
           <div className="c-figure__thumb">
             <button className="c-button c-button--outline c-licenseToggle__button" type="button">Last ned bilde</button>
