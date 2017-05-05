@@ -39,7 +39,7 @@ var by = {
   nb: {
     title: 'Navngivelse',
     userFriendlyTitle: 'Navngivelse',
-    description: 'Opphavspersonen til verket må navngis.'
+    description: 'Du må oppgi hvem som har laget bildet.'
   },
   en: {
     title: 'Attribution',
@@ -53,7 +53,7 @@ var sa = {
   nb: {
     title: 'Share Alike',
     userFriendlyTitle: 'Del på samme vilkår',
-    description: 'Bearbeidinger av verket kan bare spres på samme vilkår som det opprinnelige verket.'
+    description: 'Dersom du remixer, bearbeider eller bygger på materialet, må du dele dine bidrag under samme lisens som originalen.'
   },
   en: {
     short: 'SA',
@@ -68,7 +68,7 @@ var nc = {
   nb: {
     title: 'Ikke-kommersiell',
     userFriendlyTitle: 'Ikke-kommersiell',
-    description: 'Verket kan ikke brukes kommersielt.'
+    description: 'Du kan ikke bruke bildet i noe som skal selges.'
   },
   en: {
     title: 'Non Commercial',
@@ -138,7 +138,7 @@ var cc = {
   nb: {
     title: 'Creative Commons',
     userFriendlyTitle: 'Opphavsrett',
-    description: 'Regler for gjenbruk og deling'
+    description: 'Du kan bruke dette bildet og dele det'
   },
   en: {
     title: 'Creative Commons',
