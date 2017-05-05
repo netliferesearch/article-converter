@@ -1,13 +1,13 @@
+'use strict';
 
-
-Object.defineProperty(exports, '__esModule', {
-  value: true,
+Object.defineProperty(exports, "__esModule", {
+  value: true
 });
 exports.getLicenseRightByAbbreviation = exports.getLicenseByAbbreviation = exports.COPY = exports.CC = exports.CC0 = exports.PD = exports.ND = exports.NC = exports.SA = exports.BY = undefined;
 
-const _licenses = require('./licenses');
+var _licenses = require('./licenses');
 
-const _licenseRights = require('./licenseRights');
+var _licenseRights = require('./licenseRights');
 
 /**
  * Copyright (c) 2016-present, NDLA.

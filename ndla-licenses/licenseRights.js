@@ -142,7 +142,7 @@ var cc = {
   },
   en: {
     title: 'Creative Commons',
-    userFriendlyTitle: 'Copyright',
+    userFriendlyTitle: 'Creative Commons',
     description: 'Rights for reuse and sharing of content.'
   }
 };
