@@ -9,7 +9,7 @@
 import React from 'react';
 import defined from 'defined';
 import classnames from 'classnames';
-import { Figure, FigureDetails, FigureCaption } from '../../lib/article/Figure';
+import { Figure, FigureDetails, FigureCaption } from 'ndla-ui';
 // import Icon from 'ndla-ui/lib/icons/Icon';
 import { alttextsI18N, captionI18N } from '../utils/i18nFieldFinder';
 import { fetchImageResources } from '../api/imageApi';
