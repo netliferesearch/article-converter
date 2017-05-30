@@ -38,6 +38,7 @@
     "http-status": "0.2.3",
     "isomorphic-fetch": "2.2.1",
     "lodash": "4.16.2",
+    "ndla-article-scripts": "0.0.3",
     "ndla-licenses": "0.0.6",
     "ndla-ui": "next",
     "ndla-util": "^0.1.0",
