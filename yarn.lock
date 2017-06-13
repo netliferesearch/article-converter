@@ -2859,9 +2859,9 @@ ndla-article-scripts@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/ndla-article-scripts/-/ndla-article-scripts-0.0.3.tgz#e12827f66a0af970215f373736cf351ff312d0a2"
 
-ndla-licenses@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/ndla-licenses/-/ndla-licenses-0.0.6.tgz#d9439b92f6a7feb295644f568c2071ea2731fc6f"
+ndla-licenses@next:
+  version "0.0.8-beta.1"
+  resolved "https://registry.yarnpkg.com/ndla-licenses/-/ndla-licenses-0.0.8-beta.1.tgz#ee4951974ad2427527bf1d7387d69c54ac9ea59c"
   dependencies:
     defined "1.0.0"
 
