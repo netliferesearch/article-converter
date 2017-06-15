@@ -40,7 +40,7 @@
     "lodash": "4.16.2",
     "ndla-article-scripts": "0.0.3",
     "ndla-licenses": "next",
-    "ndla-ui": "next",
+    "ndla-ui": "0.5.6-beta.2",
     "ndla-util": "^0.1.0",
     "parse5": "2.2.1",
     "prop-types": "^15.5.8",
