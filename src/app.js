@@ -73,6 +73,10 @@ app.get('/health', (req, res) => {
   res.status(200).json({ status: 200, text: 'Health check ok' });
 });
 
+app.get('/config', (req, res) => {
+  res.status(200).json({ status: 200, config: config})
+})
+
 app.get('*', (req, res) => {
   res.status(404).json({ status: 404, text: 'Not found' });
 });

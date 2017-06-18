@@ -1,5 +1,8 @@
+Auto-deploys to Heroku on the production branch
+
 # NDLA article-converter
-[![Build Status](https://travis-ci.org/NDLANO/article-converter.svg?branch=master)](https://travis-ci.org/NDLANO/article-converter)
+[![Build Status](https://travis-ci.org/NDLANO/article-converter.svg?branch=master)]https://travis-ci.org/NDLANO/article-converter)
+
 
 ## API documentation
 

@@ -9,8 +9,8 @@
 import React from 'react';
 import defined from 'defined';
 import classnames from 'classnames';
-import { Figure, FigureDetails, FigureCaption } from 'ndla-ui/lib/article/Figure';
-import Icon from 'ndla-ui/lib/icons/Icon';
+import { Figure, FigureDetails, FigureCaption } from 'ndla-ui';
+// import Icon from 'ndla-ui/lib/icons/Icon';
 import { alttextsI18N, captionI18N } from '../utils/i18nFieldFinder';
 import { fetchImageResources } from '../api/imageApi';
 
@@ -45,11 +45,14 @@ export default function createImagePlugin() {
         <div className="c-figure__img">
           <img alt={altText} src={image.imageUrl} />
         </div>
-        <FigureCaption caption={caption} reuseLabel="Gjenbruk" licenseAbbreviation={license} authors={authors} />
+        <FigureCaption caption={caption} reuseLabel="Bruk bildet" licenseAbbreviation={license} authors={authors} />
         <FigureDetails licenseAbbreviation={license} authors={authors}>
-          <button className="c-button c-button--small c-button--transparent c-licenseToggle__button" type="button"><Icon.Copy /> Kopier referanse</button>
-          <button className="c-button c-button--small c-button--transparent c-licenseToggle__button" type="button"><Icon.Link /> Gå til kilde</button>
-          <button className="c-button c-licenseToggle__button" type="button"><Icon.OpenWindow /> Vis bilde</button>
+          <div>
+            <button className="c-button c-button--outline c-licenseToggle__button" type="button">Kopier referanse</button>
+          </div>
+          <div className="c-figure__thumb">
+            <button className="c-button c-button--outline c-licenseToggle__button" type="button">Last ned bilde</button>
+          </div>
         </FigureDetails>
       </Figure>
     )
